@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var queryURL = "https://api.nytimes.com/svc/archive/v1/2019/1.json?api-key=rqZFSP5bhXeXZG47FKvIzx7cpq5RG1Tp"
+    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=pNI9zJwwGgvD913UF1vxDKz8J3FC6yde"
 
     console.log(queryURL)
 
