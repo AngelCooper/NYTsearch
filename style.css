@@ -3,6 +3,7 @@
     color: white;
     width: 75%;
     margin-left: 225px;
+    border-radius: 5px;
 }
 
 .top-container h1{
@@ -10,4 +11,39 @@
     padding-top: 50px;
     font-size: 60px;
     padding-bottom: 50px;
+}
+
+.search-container{
+    color: rgb(41, 41, 116);;
+    width: 75%;
+    margin-left: 225px;
+    border-radius: 5px;
+    height: 500px;
+    border: solid 2px rgb(41, 41, 116);
+
+}
+
+.search-container input{
+    width: 95%;
+    background-color: white;
+}
+
+.input-container{
+    margin: 20px;
+}
+
+.search-buttons .btn{
+    margin-left: 20px;
+    background-color: rgb(41, 41, 116);
+    color: white;
+}
+
+#search-params{
+    color: white;
+    background-color: rgb(41, 41, 116);
+}
+
+#search-params label{
+    margin-left: 5px;
+
 }

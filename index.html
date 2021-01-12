@@ -23,12 +23,37 @@
     </div>
 
     <div class="search-container">
-        <input type="text" id="search-input">
-        <input type="text" id="num-to-get">
-        <input type="text" id="start-year">
-        <input type="text" id="end-year">
-        <button class="search"></button>
-        <button class="clear"></button>
+        <div id="search-params">
+            <label>Search Parameters</label>
+        </div>
+        
+        <div class="input-container">
+            <label>Search Term:</label>
+            <input type="text" id="search-input" class="form-control">
+        </div>
+
+        <div class="input-container">
+            <label>Number of Records to Retrieve</label>
+            <input type="text" id="num-to-get" class="form-control">
+        </div>
+        
+        <div class="input-container">
+            <label>Start Year</label>
+            <input type="text" id="start-year" class="form-control">
+        </div>
+
+        <div class="input-container">
+            <label>End Year</label>
+            <br>
+            <input type="text" id="end-year" class="form-control">
+        </div>
+        
+
+        <div class="search-buttons">
+            <button class="search btn">Search</button>
+            <button class="clear btn">Clear Results</button>
+        </div>
+        
     </div>
 
     <div class="articles-container"></div>
