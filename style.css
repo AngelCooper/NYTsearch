@@ -28,6 +28,15 @@
     background-color: white;
 }
 
+.articles-container{
+    color: rgb(41, 41, 116);;
+    width: 75%;
+    margin-left: 225px;
+    border-radius: 5px;
+    height: 100px;
+    border: solid 2px rgb(41, 41, 116);
+}
+
 .input-container{
     margin: 20px;
 }
@@ -41,9 +50,20 @@
 #search-params{
     color: white;
     background-color: rgb(41, 41, 116);
+    height: 30px;
 }
 
 #search-params label{
     margin-left: 5px;
 
+}
+
+#articles{
+    color: white;
+    background-color: rgb(41, 41, 116);
+    height: 30px;
+}
+
+#articles label{
+    margin-left: 5px;
 }
