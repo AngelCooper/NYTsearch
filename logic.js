@@ -1,7 +1,6 @@
 $(document).ready(function () {
-    var APIkey = "rqZFSP5bhXeXZG47FKvIzx7cpq5RG1Tp"
 
-    var queryURL = "https://api.nytimes.com/svc/archive/v1/2019/1.json?api-key=" + APIkey
+    var queryURL = "https://api.nytimes.com/svc/archive/v1/2019/1.json?api-key=rqZFSP5bhXeXZG47FKvIzx7cpq5RG1Tp"
 
     console.log(queryURL)
 
