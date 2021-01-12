@@ -12,12 +12,6 @@ $(document).ready(function () {
     var yearEnd = ""
     // We might need to append 0101 to the year
 
-
-
-
-
-
-
     //search input
     $(".search").on("click", function () {
         searchQuery = $("#search-input").val();
