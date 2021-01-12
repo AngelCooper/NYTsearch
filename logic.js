@@ -1,4 +1,6 @@
+
 $(document).ready(function() {
+
 
     //empty variable to hold search term
     var searchQuery = ""
@@ -11,6 +13,7 @@ $(document).ready(function() {
     // We might need to append 0101 to the year
 
 
+
     var queryURL = " https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=" + yearStart + "0101&end_date=" + yearEnd + "0101&q=" + searchQuery + "&api-key=pNI9zJwwGgvD913UF1vxDKz8J3FC6yde"
 
     $.ajax({
@@ -19,30 +22,18 @@ $(document).ready(function() {
     }).then(function (response) {
         // console.log(response)
     })
-    
+
+});
+  
     //search input
     $(".search").on("click", function() {
         searchQuery = $("#search-input").val();
-        console.log(searchQuery)
-    })
-
-    //number of records input
-    $(".search").on("click", function() {
+        console.log(searchQuery);
         recordNumbers = $("#num-to-get").val();
-        console.log(recordNumbers)
-    })
-
-    //start year input
-    $(".search").on("click", function() {
+        console.log(recordNumbers);
         yearStart = $("#start-year").val();
-        console.log(yearStart)
-    })
-
-    //end year input
-    $(".search").on("click", function() {
-        yearEnd = $("#end-year").val();
-        console.log(yearEnd)
-    })
+        console.log(yearStart);
+    });
 
     
 
@@ -51,6 +42,5 @@ $(document).ready(function() {
         localStorage.clear();
         initPage()
     })
-
-    
 });
+
