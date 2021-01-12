@@ -2,8 +2,9 @@ $(document).ready(function() {
 
 
     
-    $("button").on("click", function() {
-        var 
+    $(".clear btn").on(function() {
+        localStorage.clear();
+        initPage()
     })
 
     
