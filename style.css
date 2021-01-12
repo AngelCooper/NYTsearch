@@ -1,0 +1,13 @@
+.top-container{
+    background-color: rgb(41, 41, 116);
+    color: white;
+    width: 75%;
+    margin-left: 225px;
+}
+
+.top-container h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
