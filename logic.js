@@ -20,6 +20,33 @@ $(document).ready(function() {
         // console.log(response)
     })
     
+    //search input
+    $(".search").on("click", function() {
+        searchQuery = $("#search-input").val();
+        console.log(searchQuery)
+    })
+
+    //number of records input
+    $(".search").on("click", function() {
+        recordNumbers = $("#num-to-get").val();
+        console.log(recordNumbers)
+    })
+
+    //start year input
+    $(".search").on("click", function() {
+        yearStart = $("#start-year").val();
+        console.log(yearStart)
+    })
+
+    //end year input
+    $(".search").on("click", function() {
+        yearEnd = $("#end-year").val();
+        console.log(yearEnd)
+    })
+
+    
+
+
     $(".clear btn").on(function() {
         localStorage.clear();
         initPage()
