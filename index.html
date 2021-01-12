@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c9bd0a09ba.js" crossorigin="anonymous"></script>
+    <script src="logic.js"></script>
+
+
+    <title>New York Times Search</title>
+</head>
+
+<body>
+    <div class="top-container">
+        <h1><i class="far fa-newspaper"></i> New York Times Search</h1>
+    </div>
+
+    <div class="search-container">
+        <div id="search-params">
+            <label>Search Parameters</label>
+        </div>
+
+        <div class="input-container">
+            <label>Search Term:</label>
+            <input type="text" id="search-input" class="form-control">
+        </div>
+
+        <div class="input-container">
+            <label>Number of Records to Retrieve</label>
+            <input type="text" id="num-to-get" class="form-control">
+        </div>
+
+        <div class="input-container">
+            <label>Start Year</label>
+            <input type="text" id="start-year" class="form-control">
+        </div>
+
+        <div class="input-container">
+            <label>End Year</label>
+            <br>
+            <input type="text" id="end-year" class="form-control">
+        </div>
+
+
+        <div class="search-buttons">
+            <button class="search btn">Search</button>
+            <button class="clear btn">Clear Results</button>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="articles-container">
+        <div id="articles">
+            <label>Top Articles</label>
+        </div>
+        <div class="article">
+
+        </div>
+    </div>
+
+
+    <div class="articles-container"></div>
+
+
+</body>
+
+</html>
